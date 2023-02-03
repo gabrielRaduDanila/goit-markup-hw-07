@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio</title>
+  <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <a href="./index.html" class="logo-anchor undecorate-text"><span>Web</span>Studio</a>
+      <nav>
+        <ul class="nav-links unstyle-list">
+          <li class="nav-links-item">
+            <a href="./index.html" class="undecorate-text">Studio</a>
+          </li>
+          <li class="nav-links-item">
+            <a href="./portfolio.html" class="undecorate-text current-page-indicator">Portofolio</a>
+          </li>
+          <li class="nav-links-item">
+            <a href="" class="undecorate-text">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="header-contact unstyle-list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="mail undecorate-text">
+            <svg class="header-icons" width="16px" height="12px">
+              <use href="./images/icons.svg#icon-envelope-hover"></use>
+            </svg>info@devstudio.com</a>
+        </li>
+        <li>
+          <a href="tel:+12127724150" class="phone undecorate-text">
+            <svg class="header-icons" width="10px" height="16px">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>+1 212-772-4150</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main class="portofolio-page section side-padding">
+    <div class="container">
+      <!-- create filter section -->
+      <ul class="filter unstyle-list">
+        <li><button type="button" class="filter-item">All</button></li>
+        <li><button type="button" class="filter-item">Web-sites</button></li>
+        <li><button type="button" class="filter-item">Apps</button></li>
+        <li><button type="button" class="filter-item">Design</button></li>
+        <li><button type="button" class="filter-item">Marketing</button></li>
+      </ul>
+      <!-- create portofolio cards -->
+      <ul class="portofolio unstyle-list">
+        <li class="portofolio-card">
+          <div class="portofolio-card-image">
+            <img src="./images/portofoli-page/portofolio-img-1.jpg" width="370" alt="portofolio image" />
+            <div class="overlay-container">
+              <p>
+                Technoduck is a state-of-the-art coronavirus distribution platform.
+                Companies use this platform for digital espionage and attacks on competitors' secure servers.
+              </p>
+            </div>
+          </div>
+          <div class="card-text">
+            <h3 class="portofolio-card-name">Technoduck</h3>
+            <p class="portofolio-card-description">Web-site</p>
+          </div>
+        </li>
+        <li class="portofolio-card">
+          <div class="portofolio-card-image">
+            <img src="./images/portofoli-page/portofolio-img-2.jpg" width="370" alt="portofolio image" />
+            <div class="overlay-container">
+              <p>
+                Have you downloaded the new WagerTalk TV app? If not, what are you waiting for?! Watch all of our
+                programming -
+                Puck Time, WagerTalk Today, Bet On It and more - on all streaming platforms.
+              </p>
+            </div>
+          </div>
+          <div class="card-text">
+            <h3 class="portofolio-card-name">
+              Poster New Orlean vs Golden Star
+            </h3>
+            <p class="portofolio-card-description">Design</p>
+          </div>
+        </li>
+        <li class="portofolio-card">
+          <div class="portofolio-card-image">
+            <img src="./images/portofoli-page/portofolio-img-3.jpg" width="370" alt="portofolio image" />
+            <div class="overlay-container">
+              <p>
+                Experience the freshest seafood at our waterfront restaurant.
+                Our menu features a variety of dishes made with sustainably sourced fish and shellfish, caught daily by
+                local fishermen.
+              </p>
+            </div>
+          </div>
+          <div class="card-text">
+            <h3 class="portofolio-card-name">Seafood Restaurant</h3>
+            <p class="portofolio-card-description">Apps</p>
+          </div>
+        </li>
+        <li class="portofolio-card">
+          <div class="portofolio-card-image">
+            <img src="./images/portofoli-page/portofolio-img-4.jpg" width="370" alt="portofolio image" />
+            <div class="overlay-container">
+              <p>
+                Introducing Project Prime, a cutting-edge program designed to bring the latest in
+                technology and innovation to businesses of all sizes. From AI and machine learning to 5G networks and
+                cloud computing.
+              </p>
+            </div>
+          </div>
+          <div class="card-text">
+            <h3 class="portofolio-card-name">Project Prime</h3>
+            <p class="portofolio-card-description">Marketing</p>
+          </div>
+        </li>
+        <li class="portofolio-card">
+          <div class="portofolio-card-image">
+            <img src="./images/portofoli-page/portofolio-img-5.jpg" width="370" alt="portofolio image" />
+            <div class="overlay-container">
+              <p>
+                Project Boxes is your one-stop-shop for all your packaging needs. We offer a wide range of
+                customizable boxes in different sizes, materials and styles, for all types of products.
+              </p>
+            </div>
+          </div>
+          <div class="card-text">
+            <h3 class="portofolio-card-name">Project Boxes</h3>
+            <p class="portofolio-card-description">Apps</p>
+          </div>
+        </li>
+        <li class="portofolio-card">
+          <div class="portofolio-card-image">
+            <img src="./images/portofoli-page/portofolio-img-6.jpg" width="370" alt="portofolio image" />
+            <div class="overlay-container">
+              <p>
+                Through workshops, mentorship programs, and cultural exchange, our goal is to foster
+                an inclusive and multicultural community that encourages innovation and collaboration.
+              </p>
+            </div>
+          </div>
+          <div class="card-text">
+            <h3 class="portofolio-card-name">Inspiration has no Borders</h3>
+            <p class="portofolio-card-description">Web-site</p>
+          </div>
+        </li>
+        <li class="portofolio-card">
+          <div class="portofolio-card-image">
+            <img src="./images/portofoli-page/portofolio-img-7.jpg" width="370" alt="portofolio image" />
+            <div class="overlay-container">
+              <p>
+                These items are made in small quantities and will not be restocked once they're sold out.
+                Don't miss your chance to own a piece of history and add some unique flair to your collection.
+              </p>
+            </div>
+          </div>
+          <div class="card-text">
+            <h3 class="portofolio-card-name">Limited Edition</h3>
+            <p class="portofolio-card-description">Design</p>
+          </div>
+        </li>
+        <li class="portofolio-card">
+          <div class="portofolio-card-image">
+            <img src="./images/portofoli-page/portofolio-img-8.jpg" width="370" alt="portofolio image" />
+            <div class="overlay-container">
+              <p>
+                From developing new materials to exploring new frontiers in AI,
+                our goal is to create breakthroughs that will change the world.
+              </p>
+            </div>
+          </div>
+          <div class="card-text">
+            <h3 class="portofolio-card-name">Project LAB</h3>
+            <p class="portofolio-card-description">Marketing</p>
+          </div>
+        </li>
+        <li class="portofolio-card">
+          <div class="portofolio-card-image">
+            <img src="./images/portofoli-page/portofolio-img-9.jpg" width="370" alt="portofolio image" />
+            <div class="overlay-container">
+              <p>
+                We offer a wide range of services including business planning, marketing strategies,
+                financial management, and mentorship.
+              </p>
+            </div>
+          </div>
+          <div class="card-text">
+            <h3 class="portofolio-card-name">Growing Business</h3>
+            <p class="portofolio-card-description">Apps</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <!-- creating footer -->
+  <footer class="page-footer side-padding">
+    <div class="container">
+      <div class="footer-address">
+        <a href="./index.html" class="logo-anchor undecorate-text footer-logo"><span>Web</span>Studio</a>
+        <address class="footer-address">
+          695 Park Ave, NY 10065, USA <br />
+          <a href="mailto:info@devstudio.com" class="footer-mail undecorate-text">info@devstudio.com</a>
+          <a href="tel:+12127724150" class="footer-phone undecorate-text">+1 212-772-4150</a>
+        </address>
+      </div>
+      <div class="footer-social-icons">
+        <h4>Find us on</h4>
+        <ul class="social-media unstyle-list">
+          <li class="social-media-item">
+            <a href="#" target="_blank">
+              <svg class="social-icons" width="15px" height="15px">
+                <use href="./images/icons.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-media-item">
+            <a href="#" target="_blank">
+              <svg class="social-icons" width="15px" height="15px">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-media-item">
+            <a href="#" target="_blank">
+              <svg class="social-icons" width="15px" height="15px">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-media-item">
+            <a href="#" target="_blank">
+              <svg class="social-icons" width="15px" height="15px">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-form">
+        <h4 class="footer-form-title">Subscribe to the newsletter</h4>
+        <form action="">
+          <label class="email-label">
+            <input type="email" name="footer-email" placeholder="E-mail">
+            <button type="submit" class="footer-submit-form">Subscribe
+              <svg class="footer-send-icon">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </label>
+        </form>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
