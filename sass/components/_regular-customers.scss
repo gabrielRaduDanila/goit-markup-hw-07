@@ -1,0 +1,40 @@
+.regular-customers {
+    background: var(--what-we-do-bg);
+
+    .container {
+        @include displayFlex(column);
+    }
+}
+
+.regular-customers__title {
+    @extend .what-we-do__title;
+}
+
+.regular-customers__icons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 50px;
+    @extend %unstyle-list;
+}
+
+.regular-customers__icon-container {
+    @include bordered(var(--social-media-bottons));
+    @include displayFlex(row);
+    border-radius: 4px;
+    height: 75px;
+    width: 15%;
+
+    &:hover,
+    &:focus {
+        @include bordered(var(--logo-and-hover-color));
+
+        .customor-icon {
+            fill: var(--logo-and-hover-color);
+        }
+    }
+}
+
+.customor-icon {
+    fill: var(--social-media-bottons)
+}

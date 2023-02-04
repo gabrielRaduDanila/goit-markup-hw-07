@@ -1,0 +1,120 @@
+.page-footer {
+    background-color: var(--hero-bg);
+
+    .container {
+        gap: 60px;
+    }
+}
+
+.page-footer__address {
+    color: var(--white-color);
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer--logo {
+    color: var(--white-color);
+}
+
+.footer-address__mail,
+.footer-address_phone {
+    color: rgba(255, 255, 255, 0.6);
+    @extend %undecorate-text;
+
+    &:hover,
+    &:focus {
+        color: var(--logo-and-hover-color);
+    }
+}
+
+.page-footer__social-icons {
+    padding-top: 15px;
+
+    h4 {
+        text-transform: uppercase;
+        color: var(--white-color);
+        font-weight: 700;
+        line-height: 16.41px;
+        margin-bottom: 20px;
+    }
+}
+
+.footer--socia-media {
+    .social-media__item {
+        background: rgba(255, 255, 255, 0.1);
+        margin-right: 10px;
+
+        &:hover,
+        &:focus {
+            background-color: var(--logo-and-hover-color);
+        }
+    }
+
+    .social-icons {
+        fill: var(--white-color);
+    }
+}
+
+.page-footer__form {
+    flex-grow: 1;
+}
+
+.page-footer__form-title {
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.email-label {
+    display: inline-flex;
+    gap: 9px;
+    margin-top: 20px;
+}
+
+.footer-form__input {
+    min-width: 268px;
+    outline: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    border-color: transparent;
+    background-color: var(--hero-bg);
+    color: var(--white-color);
+    padding: 15px;
+
+    &::placeholder {
+        font-size: 16px;
+    }
+
+    &:hover,
+    &:focus {
+        border-color: var(--button-color);
+    }
+}
+
+.footer-submit-form {
+    color: var(--white-color);
+    font-size: 16px;
+    line-height: 1.87;
+    background-color: var(--button-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    @include bordered(transparent);
+    border-radius: 4px;
+    min-width: 170px;
+    min-height: 38px;
+    @include displayFlex(row);
+
+    &:hover,
+    &:focus {
+        background-color: var(--logo-and-hover-color);
+        cursor: pointer;
+    }
+}
+
+.footer-send-icon {
+    height: 18px;
+    width: 18px;
+    fill: var(--white-color);
+    margin-left: 19px;
+}

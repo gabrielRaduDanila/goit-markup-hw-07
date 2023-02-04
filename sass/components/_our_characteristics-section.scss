@@ -1,0 +1,27 @@
+.characteristics {
+    background-color: var(--what-we-do-bg);
+}
+
+.characteristics-list {
+    @include displayFlex(row);
+    align-items: flex-start;
+    @extend %unstyle-list;
+    gap: 30px;
+}
+
+.characteristics-list__card-image {
+    @include displayFlex(row);
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--our-team-bg);
+}
+
+.characteristics__description-title {
+    font-weight: 700;
+    color: var(--links-color);
+}
+
+.characteristics__description-text {
+    line-height: 1.71;
+    margin-top: 10px;
+}
