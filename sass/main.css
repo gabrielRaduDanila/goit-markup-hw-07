@@ -85,6 +85,10 @@ textarea {
   flex-basis: calc((100% - 90px) / 4);
 }
 
+.grid--col-6 .grid__item {
+  flex-basis: calc((100% - 150px) / 6);
+}
+
 .page-header {
   background-color: var(--white-color);
   padding: 24px 161px 25px 161px;
@@ -572,7 +576,6 @@ textarea:focus, textarea:hover {
   flex-direction: row;
   border-radius: 4px;
   height: 75px;
-  width: 15%;
 }
 .regular-customers__icon-container:hover, .regular-customers__icon-container:focus {
   border: 1px solid var(--logo-and-hover-color);

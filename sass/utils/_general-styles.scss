@@ -54,8 +54,7 @@ textarea {
   flex-direction: $flexDorection;
 }
 
-@each $nrCol in 3,
-4 {
+@each $nrCol in 3, 4, 6 {
   .grid--col-#{$nrCol} {
     .grid__item {
       $nrGap: $nrCol - 1;
